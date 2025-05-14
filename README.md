@@ -30,6 +30,16 @@ cd ios && pod install && cd ..
 - This project uses an .env file to securely store OpenWeatherMap API key.
 - The .env file is excluded from the repository for security reasons. Please ask the developer for the file if it's not already provided.
 - Make sure this line exists in babel.config.js (already set up if using this project)
+
+```bash
+plugins: [
+  ['module:react-native-dotenv', {
+    moduleName: '@env',
+    path: '.env',
+  }]
+]
+```
+
 - Restart Metro bundler after setting up the .env using command npx react-native start --reset-cache
 
 ---
