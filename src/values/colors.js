@@ -1,0 +1,16 @@
+export const colors = {
+    primary: '#362A84',
+    accent: '#5936B4',
+    lightAccent: '#9482c2',
+    shadePrimary: '#6a11cb',
+    shadeAccent: '#2575fc',
+    borderColor: '#ccc',
+    textHeading: '#151515',
+    accentText: '#e0e0e0',
+    backgroundColor: '#4c669f',
+    slightWhite: '#eee',
+    white: '#fff',
+    black: '#000',
+    overlay: 'rgba(0, 0, 0, 0.4)',
+    gray: '#555',
+}
