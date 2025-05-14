@@ -17,8 +17,8 @@ A simple weather app built using **React Native CLI** that fetches weather data 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/username/weather-app.git
-cd weather-app
+git clone https://github.com/RajwantKaur6/WeatherApp.git
+cd WeatherApp
 npm install
 cd ios && pod install && cd ..
 ```
